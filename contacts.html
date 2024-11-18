@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <!-- блок меню -->
+    <header>
+      <div class="container">
+        <nav>
+          <ul class="nav">
+            <a href="../index.html">Главная</a>
+            <a href="articles.html">Статьи</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="gallery.html">Галерея</a>
+            <a href="page-nav.html">Навигация</a>
+            <a href="registration.html">Регистрация</a>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <form>
+      <h1>Контакты</h1>
+      <!-- блок адреса -->
+
+      <fieldset>
+        <legend>Адрес</legend>
+        <div class="form-group">
+          <p class="adress">Славутич</p>
+          <p class="adress">Черниговский 3/55</p>
+          <p class="adress">6 эт</p>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="form-group">
+          <legend>Карта</legend>
+          <iframe
+            src="../Chernihiv Quarter, 3 – Google Карты.html"
+            width="600"
+            height="350"
+            style="border: 0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </fieldset>
+      <!-- форма контактов -->
+      <fieldset>
+        <legend>Обратная связь</legend>
+
+        <div class="form-group">
+          <label for="name">Ваше имя:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Введите имя"
+            value="Veronika"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="tel">Телефон:</label>
+          <input type="tel" name="tel" id="tel" placeholder="Телефон" />
+        </div>
+
+        <div class="form-group">
+          <label for="E-mail">E-mail</label>
+          <input type="email" name="email" id="E-mail" placeholder="Емейл" />
+        </div>
+
+        <div class="form-group">
+          <label for="text">Задайте вопрос:</label>
+          <input type="text" name="text" id="text" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="form-group-btn">
+          <button class="btn" type="submit">Отправить</button>
+        </div>
+      </fieldset>
+    </form>
+
+    <footer>&copy;Veronika Filippova</footer>
+  </body>
+</html>
